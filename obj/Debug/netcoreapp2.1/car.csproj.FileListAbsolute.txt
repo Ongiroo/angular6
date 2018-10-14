@@ -1,0 +1,15 @@
+C:\dev\car\obj\Debug\netcoreapp2.1\car.csprojAssemblyReference.cache
+C:\dev\car\obj\Debug\netcoreapp2.1\car.csproj.CoreCompileInputs.cache
+C:\dev\car\obj\Debug\netcoreapp2.1\car.RazorAssemblyInfo.cache
+C:\dev\car\obj\Debug\netcoreapp2.1\car.RazorAssemblyInfo.cs
+C:\dev\car\obj\Debug\netcoreapp2.1\car.AssemblyInfoInputs.cache
+C:\dev\car\obj\Debug\netcoreapp2.1\car.AssemblyInfo.cs
+C:\dev\car\obj\Debug\netcoreapp2.1\car.TagHelpers.input.cache
+C:\dev\car\obj\Debug\netcoreapp2.1\car.TagHelpers.output.cache
+C:\dev\car\obj\Debug\netcoreapp2.1\car.RazorCoreGenerate.cache
+C:\dev\car\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\dev\car\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\dev\car\obj\Debug\netcoreapp2.1\car.RazorTargetAssemblyInfo.cache
+C:\dev\car\obj\Debug\netcoreapp2.1\car.RazorTargetAssemblyInfo.cs
+C:\dev\car\obj\Debug\netcoreapp2.1\car.dll
+C:\dev\car\obj\Debug\netcoreapp2.1\car.pdb

@@ -1,0 +1,45 @@
+<div class='main-nav'>
+    <div class='navbar navbar-dark bg-dark navbar-expand-sm'>
+      <a class='navbar-brand' [routerLink]='["/"]'>Coding Flow</a>
+      <button type='button' class='navbar-toggler' data-toggle='collapse' data-target='.navbar-collapse' (click)='toggle()'>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class='navbar-collapse collapse' [ngClass]='{ "collapse": !isExpanded }'>
+        <ul class='navbar-nav flex-column'>
+          <li [routerLinkActive]="['link-active']">
+            <a href="https://amgalan.eu.auth0.com/login?client=5bb49b79a909ff4361f7e5d9" *ngIf="!auth.authenticated()">
+                <span class='glyphicon glyphicon-user'></span> Login
+            </a>
+            <a (click)="auth.logout()" *ngIf="auth.authenticated()">
+                <span class='glyphicon glyphicon-user'></span> Logout
+            </a>
+          </li>
+          <li class="nav-item" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+            <a class="nav-link" [routerLink]='["/vehicles"]' (click)='collapse()'>
+              <span class='fa fa-home'></span> Vehicles
+            </a>
+          </li>
+          <li class="nav-item" [routerLinkActive]='["link-active"]'>
+            <a class="nav-link" [routerLink]='["/vehicles/new"]' (click)='collapse()'>
+              <span class='fa fa-graduation-plus'></span> New Vehicle
+            </a>
+          </li>
+          <li class="nav-item" [routerLinkActive]='["link-active"]'>
+            <a class="nav-link" [routerLink]='["/home"]' (click)='collapse()'>
+              <span class='fa fa-home'></span> Home
+            </a>
+          </li>
+          <li class="nav-item" [routerLinkActive]='["link-active"]'>
+            <a class="nav-link" [routerLink]='["/counter"]' (click)='collapse()'>
+              <span class='fa fa-graduation-cap'></span> Counter
+            </a>
+          </li>
+          <li class="nav-item" [routerLinkActive]='["link-active"]'>
+            <a class="nav-link" [routerLink]='["/fetch-data"]' (click)='collapse()'>
+              <span class='fa fa-sun-o'></span> Fetch data
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
